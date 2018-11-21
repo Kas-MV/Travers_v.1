@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".shtrafActivity" />
-        <activity android:name=".etapActivity"></activity>
+        <activity android:name=".etapActivity" />
+        <activity android:name=".spisokShtrafActivity"></activity>
     </application>
 
 </manifest>
