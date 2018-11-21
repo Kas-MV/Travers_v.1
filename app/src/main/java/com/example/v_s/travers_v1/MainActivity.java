@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void newScreen(View view) {
-        Intent intObj = new Intent(this, SecondActivity.class);
+        Intent intObj = new Intent(this, etapActivity.class);
         startActivity(intObj);
     }
 }
