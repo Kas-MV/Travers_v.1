@@ -8,4 +8,17 @@
     android:background="@drawable/spisok_shtraf"
     tools:context=".spisokShtrafActivity">
 
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="177dp"
+        android:onClick="shtarfScreen"
+        android:text="Штраф" />
+
 </RelativeLayout>
