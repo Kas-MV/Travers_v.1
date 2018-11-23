@@ -5,23 +5,91 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="8dp"
     tools:context=".etapActivity"
     android:background="@drawable/etap">
 
+
+    <TextView
+        android:id="@+id/number_etap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:layout_marginBottom="15dp"
+        android:text="Этап 1" />
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="74dp"
-        android:layout_alignParentStart="true"
+        android:id="@+id/btn_fines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number_etap"
+        android:layout_marginBottom="15dp"
+        android:text="Список штрафов"
+        />
+    <Button
+        android:id="@+id/btn_team1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_fines"
+        android:layout_marginBottom="15dp"
+        android:text="Команда 1"
+        />
+    <Button
+        android:id="@+id/btn_team2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_team1"
+        android:layout_marginBottom="15dp"
+        android:text="Команда 2"
+        />
+    <Button
+        android:id="@+id/btn_team3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_team2"
+        android:layout_marginBottom="15dp"
+        android:text="Команда 3"
+        />
+
+    <Button
+        android:id="@+id/btn_team4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_team3"
+        android:layout_marginBottom="15dp"
+        android:text="Команда 4"
+        />
+
+    <Button
+        android:id="@+id/btn_team5"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_team4"
+        android:layout_marginBottom="15dp"
+        android:text="Команда 5"
+        />
+
+    <Button
+        android:id="@+id/btn_team6"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_team5"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="52dp"
-        android:layout_marginLeft="52dp"
-        android:layout_marginTop="151dp"
-        android:layout_marginEnd="188dp"
-        android:layout_marginRight="188dp"
-        android:onClick="spisok_shtraf"
-        android:text="список штрафов" />
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="Команда 6"
+        />
+
+    <Button
+        android:id="@+id/btn_end"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="Завершить"
+        />
 
 </RelativeLayout>
