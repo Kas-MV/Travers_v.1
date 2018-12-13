@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="8dp"
-    tools:context=".etapActivity"
+    tools:context=".ListOfCommandsActivity"
     android:background="@drawable/etap">
 
 
@@ -19,12 +19,23 @@
         android:textSize="30sp"
         android:layout_marginBottom="15dp"
         android:text="Этап 1" />
+
+    <TextView
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_fines"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp" />
     <Button
         android:id="@+id/btn_fines"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/number_etap"
         android:layout_marginBottom="15dp"
+        android:onClick="listFines"
         android:text="Список штрафов"
         />
     <Button

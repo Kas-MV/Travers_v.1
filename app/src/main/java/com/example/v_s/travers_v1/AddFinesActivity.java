@@ -3,11 +3,11 @@ package com.example.v_s.travers_v1;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class shtrafActivity extends AppCompatActivity {
+public class AddFinesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_shtraf);
+        setContentView(R.layout.activity_addfines);
     }
 }

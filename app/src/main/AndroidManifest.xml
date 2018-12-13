@@ -9,16 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".MainActivity">
+        <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".shtrafActivity" />
-        <activity android:name=".etapActivity" />
-        <activity android:name=".spisokShtrafActivity"></activity>
+        <activity android:name=".AddFinesActivity" />
+        <activity android:name=".ListOfCommandsActivity" />
+        <activity android:name=".FinesActivity"></activity>
     </application>
 
 </manifest>
